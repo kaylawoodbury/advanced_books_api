@@ -7,3 +7,8 @@ In this demo we:
  - scaffolded an express application in node js
  - set up a testing framework
  - create tests for status 200 repsonse and book list 
+ - install sequelize and set up sequelizerc
+ - generate book model and migration
+ - 
+
+
