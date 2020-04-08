@@ -9,6 +9,8 @@ In this demo we:
  - create tests for status 200 repsonse and book list 
  - install sequelize and set up sequelizerc
  - generate book model and migration
- - 
+ - create seed for db
+ - update tests
+ - refactor to use a controller
 
 
