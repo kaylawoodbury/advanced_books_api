@@ -12,5 +12,6 @@ In this demo we:
  - create seed for db
  - update tests
  - refactor to use a controller
+ - set up test env using NODE_ENV=test instead of development
 
 
