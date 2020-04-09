@@ -13,5 +13,7 @@ In this demo we:
  - update tests
  - refactor to use a controller
  - set up test env using NODE_ENV=test instead of development
+ - set up Factory-girl to mock out tests
+ - creates test and test_helper folders
 
 

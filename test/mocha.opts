@@ -1,0 +1,4 @@
+--recursive
+--file ./test_helpers/index.js
+--reporter spec
+--exit
