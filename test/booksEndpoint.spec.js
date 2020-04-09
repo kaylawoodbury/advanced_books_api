@@ -64,4 +64,10 @@ describe("GET /api/v1/books/:id", () => {
     //console.table(response.body)
     expect(response.body.book.title).to.equal('Learn Sequelize with Adi');
   });
+
+  it("responds with a single book's author", async () => {
+    response = await request.get('/api/v1/books/900')
+      //console.table(response.body)
+      expect(response.body.book.author.fullName).to.equal('Thomas Ochman');
+    });
 });
