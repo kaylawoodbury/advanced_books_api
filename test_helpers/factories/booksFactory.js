@@ -1,9 +1,8 @@
-'use strict'
-
-module.exports = function( factory, Models) {
+'use strict';
+module.exports = (factory, Models) => {
   factory.define('Book', Models.Book, {
-    title: 'Test Book',
+    title: 'Foo',
     createdAt: new Date(),
     updatedAt: new Date()
-  })
-}
+  });
+};
